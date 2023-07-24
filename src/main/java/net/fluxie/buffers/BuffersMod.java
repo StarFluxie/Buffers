@@ -1,6 +1,8 @@
 package net.fluxie.buffers;
 
 import com.mojang.logging.LogUtils;
+import net.fluxie.buffers.block.ModBlocks;
+import net.fluxie.buffers.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +21,8 @@ public class BuffersMod {
     private static final Logger LOGGER = LogUtils.getLogger();
     public BuffersMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
