@@ -3,7 +3,7 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"3": "minecraft:block/mangrove_planks",
+		"3": "minecraft:block/oak_planks",
 		"4": "buffersmod:block/hose_pulley_magnet",
 		"5": "buffersmod:block/girder",
 		"6": "buffersmod:block/axis",

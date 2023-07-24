@@ -15,9 +15,9 @@ import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class MangroveTrainBuffer extends HorizontalDirectionalBlock {
+public class DarkOakTrainBuffer extends HorizontalDirectionalBlock {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
-    public MangroveTrainBuffer(Properties properties){
+    public DarkOakTrainBuffer(Properties properties){
         super(properties);
     }
     private static final VoxelShape SHAPE_NORTH = Block.box(-16, 4, 13, 32, 16, 16);

@@ -1,6 +1,14 @@
 {
   "block.buffersmod.train_buffer": "Train Buffer",
   "block.buffersmod.mangrove_train_buffer": "Mangrove Train Buffer",
+  "block.buffersmod.spruce_train_buffer": "Spruce Train Buffer",
+  "block.buffersmod.oak_train_buffer": "Oak Train Buffer",
+  "block.buffersmod.birch_train_buffer": "Birch Train Buffer",
+  "block.buffersmod.jungle_train_buffer": "Jungle Train Buffer",
+  "block.buffersmod.acacia_train_buffer": "Acacia Train Buffer",
+  "block.buffersmod.dark_oak_train_buffer": "Dark Oak Train Buffer",
+  "block.buffersmod.crimson_train_buffer": "Crimson Train Buffer",
+  "block.buffersmod.warped_train_buffer": "Warped Train Buffer",
 
   "itemGroup.buffertab": "Fluxie's Buffers"
 }
