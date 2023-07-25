@@ -15,16 +15,16 @@ import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class DarkOakTrainBuffer extends HorizontalDirectionalBlock {
+public class MangroveTrainBuffer2 extends HorizontalDirectionalBlock {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
-    public DarkOakTrainBuffer(Properties properties){
+    public MangroveTrainBuffer2(Properties properties){
         super(properties);
     }
-    private static final VoxelShape SHAPE_NORTH = Block.box(0, 4, 13, 16, 16, 16);
-    private static final VoxelShape SHAPE_WEST = Block.box(13, 4, 0, 16, 16, 16);
-    private static final VoxelShape SHAPE_SOUTH = Block.box(0, 4, 0, 16, 16, 3);
-    private static final VoxelShape SHAPE_EAST = Block.box(0, 4, 0, 3, 16, 16);
 
+    private static final VoxelShape SHAPE_NORTH = Block.box(0, 4, 15, 16, 16, 16);
+    private static final VoxelShape SHAPE_WEST = Block.box(15, 4, 0, 16, 16, 16);
+    private static final VoxelShape SHAPE_SOUTH = Block.box(0, 4, 0, 16, 16, 1);
+    private static final VoxelShape SHAPE_EAST = Block.box(0, 4, 0, 1, 16, 16);
     @Override
     public VoxelShape getShape(BlockState p_48816_, BlockGetter p_48817_, BlockPos p_48818_, CollisionContext p_48819_) {
         Direction direction = p_48816_.getValue(FACING);

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=north": {"model": "buffersmod:block/mangrove_train_buffer_2"
+    },
+    "facing=south": {"model": "buffersmod:block/mangrove_train_buffer_2",
+      "y": 180
+    },
+    "facing=west": {"model": "buffersmod:block/mangrove_train_buffer_2",
+      "y": 270
+    },
+    "facing=east": {"model": "buffersmod:block/mangrove_train_buffer_2",
+      "y": 90
+    }
+  }
+}

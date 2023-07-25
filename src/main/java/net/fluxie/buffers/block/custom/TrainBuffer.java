@@ -22,10 +22,10 @@ public class TrainBuffer extends HorizontalDirectionalBlock {
         super(properties);
     }
 
-    private static final VoxelShape SHAPE_NORTH = Block.box(3, 4, 5, 13, 12, 16);
-    private static final VoxelShape SHAPE_WEST = Block.box(5, 4, 3, 16, 12, 13);
-    private static final VoxelShape SHAPE_SOUTH = Block.box(3, 4, 0, 13, 12, 11);
-    private static final VoxelShape SHAPE_EAST = Block.box(0, 4, 3, 11, 12, 13);
+    private static final VoxelShape SHAPE_NORTH = Block.box(4, 4, 5, 12, 12, 16);
+    private static final VoxelShape SHAPE_WEST = Block.box(5, 4, 4, 16, 12, 12);
+    private static final VoxelShape SHAPE_SOUTH = Block.box(4, 4, 0, 12, 12, 11);
+    private static final VoxelShape SHAPE_EAST = Block.box(0, 4, 4, 11, 12, 12);
 
     @Override
     public VoxelShape getShape(BlockState p_48816_, BlockGetter p_48817_, BlockPos p_48818_, CollisionContext p_48819_) {

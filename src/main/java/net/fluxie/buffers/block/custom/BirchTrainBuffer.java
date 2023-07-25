@@ -20,11 +20,10 @@ public class BirchTrainBuffer extends HorizontalDirectionalBlock {
     public BirchTrainBuffer(Properties properties){
         super(properties);
     }
-    private static final VoxelShape SHAPE_NORTH = Block.box(-16, 4, 13, 32, 16, 16);
-
-    private static final VoxelShape SHAPE_WEST = Block.box(13, 4, -16, 16, 16, 32);
-    private static final VoxelShape SHAPE_SOUTH = Block.box(-16, 4, 0, 32, 16, 3);
-    private static final VoxelShape SHAPE_EAST = Block.box(0, 4, -16, 3, 16, 32);
+    private static final VoxelShape SHAPE_NORTH = Block.box(0, 4, 13, 16, 16, 16);
+    private static final VoxelShape SHAPE_WEST = Block.box(13, 4, 0, 16, 16, 16);
+    private static final VoxelShape SHAPE_SOUTH = Block.box(0, 4, 0, 16, 16, 3);
+    private static final VoxelShape SHAPE_EAST = Block.box(0, 4, 0, 3, 16, 16);
 
     @Override
     public VoxelShape getShape(BlockState p_48816_, BlockGetter p_48817_, BlockPos p_48818_, CollisionContext p_48819_) {
